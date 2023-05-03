@@ -644,23 +644,23 @@ Validated: 1
 EndChar
 
 StartChar: asterisk
-Encoding: 42 42 17
+Encoding: 42 42 12
 Width: 500
+GlyphClass: 2
 Flags: HMW
-HStem: 513 277<204 279 204 204>
-VStem: 194 95<711 790 710 790>
+HStem: 513 277
+VStem: 194 95
 LayerCount: 2
 Fore
 SplineSet
-289 790 m 1
- 289 710 l 1
- 279 513 l 1
- 204 513 l 1
- 194 711 l 1
- 194 790 l 1
- 289 790 l 1
+131 340 m 1
+ 240.5 443.5 l 25
+ 131 544 l 1
+ 347 544 l 25
+ 240.5 443.5 l 25
+ 350 340 l 25
+ 131 340 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: plus
@@ -1213,21 +1213,41 @@ Validated: 1
 EndChar
 
 StartChar: question
-Encoding: 63 63 37
+Encoding: 63 63 32
 Width: 500
+GlyphClass: 2
 Flags: HMW
-HStem: 394 199<276 280>
-VStem: 179 198<491 496>
+HStem: 394 199
+VStem: 179 198<-101 -96>
 LayerCount: 2
 Fore
 SplineSet
-377 491 m 1
- 280 394 l 1
- 179 496 l 1
- 276 593 l 1
- 377 491 l 1
+212 200 m 29
+ 212 394 l 29
+ 332 593 l 29
+ 332 675 l 29
+ 310 694 l 29
+ 190 694 l 29
+ 168 674 l 29
+ 168 590 l 29
+ 67 590 l 29
+ 67 654 l 5
+ 154 740 l 29
+ 345 740 l 5
+ 430 653 l 29
+ 430 593 l 29
+ 302 394 l 29
+ 291 200 l 29
+ 212 200 l 29
+168 674 m 1029
+430 593 m 1029
+212 200 m 1053
+180 138 m 29
+ 324 136 l 29
+ 322 0 l 29
+ 178 0 l 29
+ 180 138 l 29
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: A
